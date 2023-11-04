@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+}
+
+.nav-bar {
+  margin-left: 4.75rem;
+  margin-top: 2.75rem;
+}
+
+.nav-link {
+  cursor: pointer;
+  color: #989d9c;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.813rem;
+  margin-right: 1.44rem;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #323333;
+}
+
+.nav-link:active {
+  opacity: 50%;
+  transition: 0.3s;
+}
+
+.nav-button {
+  background: #665ae1;
+  border: none;
+  border-radius: 1.28125rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 600;
+  height: 2.5625rem;
+  margin-bottom: 5rem;
+  width: 8.125rem;
+}
+
+.nav-button:hover {
+  background: #5345f5;
+}
+
+.nav-button:active {
+  opacity: 50%;
+  transition: 0.3s;
+}
+
+.side-right {
+  display: inline-block;
+  margin-left: 7.81rem;
+}
+
+.image-pet {
+  display: inline-block;
+  height: 24.66838rem;
+  width: 35.5rem;
+}
+
+.side-left {
+  color: #515151;
+  display: inline-block;
+  margin-left: 5.37rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 6.25rem;
+  font-weight: 900;
+  line-height: 7.625rem;
+}
+
+.subtitle {
+  font-size: 3.625rem;
+  font-weight: 500;
+  line-height: 4.438rem;
+  margin-bottom: 2rem;
+}
+
+.paragraph {
+  color: #848484;
+  font-size: 1.5rem;
+  font-weight: 400;
+  height: 5.4375rem;
+  line-height: 1.813rem;
+  margin-bottom: 4.06rem;
+  width: 32.1875rem;
+}
+
+.button-botton {
+  background: #adff00;
+  border: none;
+  border-radius: 1.28125rem;
+  color: #000;
+  cursor: pointer;
+  font-size: 1.75rem;
+  font-weight: 700;
+  height: 4rem;
+  line-height: 2.125rem;
+  width: 14.9375rem;
+}
+
+.button-botton:hover {
+  background: #aeff00b7;
+}
+
+.button-botton:active {
+  opacity: 50%;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 882px) {
+  * {
+    text-align: center;
+    transition: 0.8s;
+  }
+
+  .nav-bar {
+    margin-left: 0;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    text-align: right;
+  }
+
+  .nav-link {
+    display: none;
+    margin: 0 0 0 0;
+  }
+
+  .side-left {
+    margin-bottom: 1.5rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+  }
+
+  .image-pet {
+    height: 15.63975rem;
+    max-width: 80%;
+    width: 22.125rem;
+  }
+
+  .side-right {
+    margin-bottom: 1.5rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    text-align: center;
+    transition: 0.8s;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .side-left {
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+  }
+
+  .image-pet {
+    height: 15.63975rem;
+    max-width: 80%;
+    text-align: center;
+    width: 22.125rem;
+  }
+
+  .side-right {
+    box-sizing: border-box;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    width: 450px;
+  }
+
+  .title {
+    font-size: 3.125rem;
+    margin-bottom: 1.41rem;
+    max-width: 80%;
+  }
+
+  .subtitle {
+    font-size: 1.875rem;
+    margin-bottom: 2rem;
+    max-width: 80%;
+  }
+
+  .paragraph {
+    margin-bottom: 5rem;
+    max-width: 80%;
+    text-align: center;
+  }
+
+  .button-botton {
+    height: 4rem;
+    max-width: 70%;
+    width: 14.9375rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  * {
+    text-align: center;
+    transition: 0.8s;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .side-left {
+    margin: 2rem 2rem 2rem 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+  }
+
+  .image-pet {
+    height: 15.63975rem;
+    margin: 0 0 0 0;
+    max-width: 80%;
+    text-align: center;
+    width: 22.125rem;
+  }
+
+  .side-right {
+    margin: 0 2rem 2rem 2rem;
+    width: 21rem;
+  }
+
+  .title {
+    font-size: 3.125rem;
+    height: 3.25rem;
+    margin: 0 2rem 1.7rem 2rem;
+    width: 16.4375rem;
+  }
+
+  .subtitle {
+    font-size: 1.875rem;
+    margin: 0 2rem 1.7rem 2rem;
+    max-width: 80%;
+  }
+
+  .paragraph {
+    display: none;
+  }
+
+  .button-botton {
+    height: 4rem;
+    margin-bottom: 1rem;
+    max-width: 70%;
+    width: 14.9375rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  * {
+    text-align: center;
+    transition: 0.8s;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .side-left {
+    margin: 0 1rem 0 1rem;
+    width: 18rem;
+  }
+
+  .image-pet {
+    margin: 0 0 0 0;
+    height: 15.63975rem;
+    max-width: 80%;
+    text-align: center;
+    width: 22.125rem;
+  }
+
+  .side-right {
+    margin: 0 1rem 1rem 1rem;
+    text-align: center;
+    width: 18rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin: 0 1.5rem 1rem 1.5rem;
+    height: 3.25rem;
+    width: 16.4375rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+    margin: 0 2rem 1rem 2rem;
+    max-width: 80%;
+  }
+
+  .paragraph {
+    display: none;
+  }
+
+  .button-botton {
+    margin-left: 1.7rem;
+    margin-right: 1.7rem;
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  * {
+    text-align: center;
+    transition: 0.8s;
+  }
+
+  .side-left {
+    margin: 0 0 0 0;
+  }
+
+  .side-right {
+    margin: 0 0 0 0;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin: 0 1.2rem 1rem 1.2rem;
+    max-width: 90%;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    margin: 0 2rem 1rem 2rem;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  * {
+    text-align: center;
+    transition: 0.8s;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .side-left {
+    margin: 0 0.5rem 0 0.5rem;
+    width: 13rem;
+  }
+
+  .image-pet {
+    height: 15.63975rem;
+    margin-bottom: 0;
+    max-width: 80%;
+    text-align: center;
+    width: 22.125rem;
+  }
+
+  .side-right {
+    box-sizing: border-box;
+    margin: 0 0.5rem 0 0.5rem;
+    text-align: center;
+    width: 13rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin: 0 0.5rem 0 0.5rem;
+    max-width: 90%;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    margin: 0 1rem 0 1rem;
+    max-width: 80%;
+  }
+
+  .paragraph {
+    display: none;
+  }
+
+  .button-botton {
+    max-width: 70%;
+  }
+}
