@@ -117,6 +117,15 @@
   transition: 0.3s;
 }
 
+.footer {
+  margin-right: 2rem;
+  margin-top: 8rem;
+  position: absolute;
+  top: 37rem;
+  margin-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+
 @media screen and (max-width: 882px) {
   * {
     text-align: center;
@@ -153,6 +162,10 @@
     margin-left: 0rem;
     margin-right: 0rem;
     margin-top: 0rem;
+  }
+
+  .footer {
+    top: 47rem;
   }
 }
 
@@ -211,6 +224,10 @@
     max-width: 70%;
     width: 14.9375rem;
   }
+
+  .footer {
+    top: 45rem;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -266,6 +283,10 @@
     max-width: 70%;
     width: 14.9375rem;
   }
+
+  .footer {
+    top: 32rem;
+  }
 }
 
 @media screen and (max-width: 390px) {
@@ -318,6 +339,10 @@
     margin-left: 1.7rem;
     margin-right: 1.7rem;
     max-width: 70%;
+  }
+
+  .footer {
+    top: 27rem;
   }
 }
 
