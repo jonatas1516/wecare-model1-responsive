@@ -118,12 +118,12 @@
 }
 
 .footer {
+  margin-left: 1rem;
   margin-right: 2rem;
   margin-top: 8rem;
+  padding-bottom: 0.5rem;
   position: absolute;
   top: 37rem;
-  margin-left: 1rem;
-  padding-bottom: 0.5rem;
 }
 
 @media screen and (max-width: 882px) {
